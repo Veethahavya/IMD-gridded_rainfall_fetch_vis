@@ -50,8 +50,8 @@ python fetch.py -f <int::from_year> -t <int:: to_year>
 
 
 ## Script Details
-- URL: The script accesses this webpage(https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html) to find the available years.
-- Download URL: The data is downloaded via this link(https://www.imdpune.gov.in/cmpg/Griddata/RF25.php).
+- URL: The script accesses this [webpage](https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html) (https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html) to find the available years.
+- Download URL: The data is downloaded via this [link](https://www.imdpune.gov.in/cmpg/Griddata/RF25.php) (https://www.imdpune.gov.in/cmpg/Griddata/RF25.php).
 - Data Format: The files are assumed to be in NetCDF format (.nc).
 
 
