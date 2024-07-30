@@ -1,5 +1,5 @@
 # 1. Fetch Rainfall Data
-Thanks to the work of [Pai et al. (2014)](https://www.imdpune.gov.in/cmpg/Griddata/ref_paper_MAUSAM.pdf), 0.25x0.25 degree gridded datasets ara made available to the public by the [Indian Meteorological Department (IMD)](https://mausam.imd.gov.in/) since 1901.
+Thanks to the work of [Pai et al. (2014)](https://www.imdpune.gov.in/cmpg/Griddata/ref_paper_MAUSAM.pdf), 0.25x0.25 degree gridded datasets ara made available to the public by the [Indian Meteorological Department (IMD)](https://mausam.imd.gov.in/) with datasets starting from 1901 until 2023 (as of 30.07.2024).
 The Python script `./fetch.py` automates the download of said datasets from the [Indian Meteorological Department (IMD) Pune website](https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html), where the dataset is available. It retrieves the list of available years from the dropdown menu and downloads the corresponding datasets that are offered in NetCDF format.
 
 
