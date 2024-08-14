@@ -41,7 +41,7 @@ This will:
 
 Alternatively, specify the period for which you want to download the datasets like so:
 ```bash
-python fetch.py -from_year <int::from_year> -to_year <int:: to_year>
+python fetch.py --from_year <int::from_year> --to_year <int:: to_year>
 ```
 OR
 ```bash
@@ -93,7 +93,7 @@ This will generate and save the visualisations for all years and store it under 
 
 Alternatively, specify the period for which you want to download the datasets like so:
 ```bash
-python vis.py -from_year <int::from_year> -to_year <int:: to_year>
+python vis.py --from_year <int::from_year> --to_year <int:: to_year>
 ```
 OR
 ```bash
